@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Ex3 {
     public void input(double[] arr) {
-        // Bỏ if (arr.length == 0) vì main đã kiểm tra, tránh in "Nhap: " không cần thiết
+       
         double max = Double.NEGATIVE_INFINITY;
         double sum = 0.0;
         for (double num : arr) {
@@ -18,7 +18,7 @@ public class Ex3 {
 
     public static void main(String[] args) {
         if (args.length == 0) {
-            System.out.println("KValid.");
+            System.out.println("invalid.");
             return;
         }
 
@@ -57,4 +57,5 @@ public class Ex3 {
 
         obj.input(arr);
     }
+
 }
